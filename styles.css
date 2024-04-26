@@ -3,7 +3,7 @@ body {
 }
 
 * {
-	border: 1px dashed red;
+	border: 1px dashed rgb(22, 1, 1);
 	min-height: 10px;
 }
 .postcard {
@@ -26,10 +26,19 @@ body {
 .postcard-body {
 	display: flex;
 }
+body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 10px;
+}
 .postcard-footer {
 	text-align: center;
 }
 button {
-	background-color: darkgray;
-	padding: 5px 10px;
+	background-color: gray;
+	padding: 5px;
+	font-size: 600px;
 }
